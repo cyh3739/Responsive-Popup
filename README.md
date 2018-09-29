@@ -27,8 +27,8 @@ _ _ _
 $(document).ready(function(){
     //Single Popup
     $.rpopup({
-        imgSrc : "./imgs/img01.png",
-        mobile_imgSrc : "./imgs/img02.png",
+        imgSrc : "./imgs/img1.png",
+        mobile_imgSrc : "./imgs/img2.png",
         positionTop :"70px",
         positionLeft :"50%", //(Center)
         headerText :"Responsive Popup"
@@ -47,13 +47,13 @@ _ _ _
 //Value Type : Objects in Array
 $.rpopup([
     {
-        imgSrc : "./imgs/img01.png",  
+        imgSrc : "./imgs/img1.png",  
         positionTop :"70px",
         positionLeft :"50%",
         headerText :"Responsive Popup" 
     },
     {
-        imgSrc : "./imgs/img02.png",  
+        imgSrc : "./imgs/img2.png",  
         positionTop :"140px",
         positionLeft :"51%",
         headerText :"Responsive Popup" 
