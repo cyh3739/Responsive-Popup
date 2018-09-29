@@ -10,7 +10,7 @@
 ### License - MIT license ( http://opensource.org/licenses/MIT )
 
 ![ResponsivePopup
-](./img/ResponsivePopup.png)
+](./ResponsivePopup.png)
 _ _ _
 ### [Set up]
 ```
