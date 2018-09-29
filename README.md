@@ -88,7 +88,7 @@ ___
 
 /*=== headerBar ===*/
 .rPopup_header{ height:33px; background:#f1f3f5; }
-.rPopup_header>h3{ color:#343a40; }
+.rPopup_header>h3>span{ font-size:17px; color:#343a40; }
 
 /*=== footerBar ===*/
 .rPopup_footer{ background:#f1f3f5; }
