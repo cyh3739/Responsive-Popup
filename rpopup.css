@@ -7,8 +7,10 @@
 
 /*headerBar*/
 .rPopup_header{position:relative; height:33px; background:#f1f3f5; cursor:move; overflow:hidden; }
-.rPopup_header>h3{position:absolute; left:0; right:0; top:50%; z-index:7; line-height:20px; margin-top:-10px; text-align:left; font-size:17px; color:#343a40; 
+.rPopup_header>h3{position:absolute; left:0; right:0; top:0; bottom:0; z-index:7; text-align:left; font-size:17px; color:#343a40; 
                   box-sizing:border-box; padding:0 30px 0 7px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.rPopup_header>h3:before{content:''; width:0; height:100%; display:inline-block; vertical-align:middle;}
+.rPopup_header>h3>span{display:inline-block; vertical-align:middle;}
 .rPopup_header>button{position:absolute; right:0; top:0; bottom:0; z-index:77; width:30px; font-size:32px; cursor:pointer; }
 
 /*rPopup_body*/

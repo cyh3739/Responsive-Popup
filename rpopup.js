@@ -51,7 +51,7 @@ $.rpopup = function(op){
                 var html = '<div class="rPopup" data-idx="'+index+'">'+
                            '<div class="rPopup_wrap">'+
                                 '<div class="rPopup_header">'+
-                                    '<h3>'+_op.headerText+'</h3><button type="button">&times;</button>'+
+                                    '<h3><span>'+_op.headerText+'</span></h3><button type="button">&times;</button>'+
                                 '</div>'+
                                 '<div class="rPopup_body">';
                 if(_op.linkHref != undefined){ html += '<a href="'+_op.linkHref+'" target="'+_op.linkTarget+'">'; }
