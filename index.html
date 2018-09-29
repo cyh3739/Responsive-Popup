@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0, user-scalable=no">
+	<meta name="Author" content="Choi_YoungHwa">
+	
+	<title>Responsive-Popup</title>
+	
+    <link rel="stylesheet" href="./rpopup.css">
+    
+    <script src="./jquery-3.1.1.min.js"></script>
+    <script src="./rpopup.min.js"></script>
+	<script>
+    $(document).ready(function(){
+        
+        //Value Type : Objects in Array
+        $.rpopup([
+            {
+                imgSrc : "./imgs/img1.png",  
+                positionTop :"70px",
+                positionLeft :"50%",
+                headerText :"Responsive Popup" 
+            },
+            {
+                imgSrc : "./imgs/img2.png",  
+                positionTop :"140px",
+                positionLeft :"51%",
+                headerText :"Responsive Popup" 
+            }
+        ]);
+
+    });
+	</script>
+</head>
+<body style="background:#f8f9fa;">
+    <h1 style="position:absolute; left:50%; top:50%; transform:translate(-50%, -50%); font-size:7vw;text-align:center; color:#e9ecef; user-select:none;">RESPONSIVE <br> POPUP</h1>
+    
+    
+    
+</body>
+</html>
