@@ -42,9 +42,9 @@ $(document).ready(function(){
 
 _ _ _
 ### [Multiple Popup]   
-**Value Type : Objects in Array**
+**Parameter : Objects in Array**
 ```
-//Value Type : Objects in Array
+//Parameter : Objects in Array
 $.rpopup([
     {
         imgSrc : "./imgs/img1.png",  
