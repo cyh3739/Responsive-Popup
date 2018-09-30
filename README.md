@@ -81,7 +81,7 @@ $.rpopup({
 ```
 
 ___
-### [Custom Style Selectors]
+### [Custom Style]
 ```
 /*=== wrap ===*/
 .rPopup_wrap{ border:1px solid #dee2e6; border-radius:3px; }
